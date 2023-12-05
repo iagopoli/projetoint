@@ -1,0 +1,128 @@
+
+.text-small {
+    font-size: 0.9rem;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+
+  .form-controll {
+    background: #212529;
+    border-color: #545454;
+  }
+
+  .form-controll:focus {
+    background: #212529;
+  }
+
+
+  .back-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #212121;
+      color: #d1cccc;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+  .back-button:hover {
+      background-color: #909292;
+    }
+
+  .faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .faq-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .faq-item h2 {
+    color: #333;
+  }
+
+  .faq-item p {
+    color: #666;
+  }
+
+  .back-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-left: 15px;
+  }
+
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+
+  footer {
+    background: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+
+  @media (max-width: 512px) {
+
+
+      .col-lg-2.col-md-6 {
+          flex-basis: 50%;
+          max-width: 50%;
+      }
+
+
+
+  }
+<<<<<<< HEAD
+/* estilo.css */
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.faq-container {
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+/* Adicione mais estilos conforme necessário */
+=======
+>>>>>>> 6f63f15ae31d3258c4b56862751e4a7ffa5bf0eb

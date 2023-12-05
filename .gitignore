@@ -1,0 +1,30 @@
+/node_modules
+<<<<<<< HEAD
+=======
+/public/build
+>>>>>>> 6f63f15ae31d3258c4b56862751e4a7ffa5bf0eb
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+<<<<<<< HEAD
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+=======
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+>>>>>>> 6f63f15ae31d3258c4b56862751e4a7ffa5bf0eb
+/.idea
+/.vscode

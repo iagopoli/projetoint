@@ -1,0 +1,24 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+<<<<<<< HEAD
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+=======
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+>>>>>>> 6f63f15ae31d3258c4b56862751e4a7ffa5bf0eb
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[docker-compose.yml]
+indent_size = 4

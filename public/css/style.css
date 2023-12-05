@@ -1,0 +1,107 @@
+.text-small {
+    font-size: 0.9rem;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .hideElement {
+    display: none;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+
+  .form-controll {
+    background: #212529;
+    border-color: #545454;
+  }
+
+  .form-controll:focus {
+    background: #212529;
+  }
+
+  footer {
+    background: #212529;
+  }
+
+  .imglogo {
+
+    max-width: 150px;
+    height: auto;
+    max-width: 100px;
+    max-height: 300px;
+  }
+
+  .login-button {
+    background-color: #000000;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    border: none;
+    /* Removendo a borda */
+    padding: 10px 30px;
+    /* Ajustando o tamanho do botão */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    position: absolute;
+    /* Posição absoluta para o canto direito */
+    top: 12px;
+    /* Distância do topo */
+    right: 50px;
+    /* Distância da direita */
+  }
+  /* Estilos padrão para telas maiores, como computadores */
+  @media (min-width: 768px) {
+    .login-button {
+      right: 50px; /* Mantém a posição original no computador */
+    }
+  }
+
+  /* Estilos para telas menores, como smartphones */
+  @media (max-width: 512px) {
+    .login-button {
+      position: static; /* Remove a posição absoluta para que o botão siga o fluxo normal */
+      margin-top: 20px; /* Adiciona um espaçamento acima do botão */
+      padding: 10px 20px; /* Ajusta o tamanho do botão */
+      font-size: 14px; /* Ajusta o tamanho da fonte do botão */
+    }
+
+    /* Estilos para ocultar o botão "Sair" em telas menores */
+    .hideElement {
+      display: none;
+    }
+
+    /* Estilos para tornar o texto e as imagens responsivos */
+    .mx-auto {
+      width: 100%; /* Ocupa 100% da largura disponível */
+      max-width: 100%; /* Define a largura máxima como 100% */
+      text-align: center; /* Centraliza o texto */
+      margin-top: 10px; /* Reduz a margem superior do texto */
+      margin-bottom: 10px; /* Reduz a margem inferior do texto */
+    }
+
+    /* Estilos para a imagem */
+    .rounded {
+      width: 100%; /* Ocupa 100% da largura disponível */
+      max-width: 100%; /* Define a largura máxima como 100% */
+      height: auto; /* Mantém a proporção da imagem */
+      display: block; /* Remove margens verticais indesejadas */
+      margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    }
+
+    /* Estilos para reduzir a margem inferior do carrossel */
+    .carousel {
+      margin-bottom: -100%; /* Ajuste esta margem conforme necessário */
+    }
+    .col-lg-2.col-md-6 {
+          flex-basis: 50%;
+          max-width: 50%;
+      }
+
+  }

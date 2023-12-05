@@ -1,0 +1,14 @@
+* text=auto
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+<<<<<<< HEAD
+=======
+.styleci.yml export-ignore
+>>>>>>> 6f63f15ae31d3258c4b56862751e4a7ffa5bf0eb
